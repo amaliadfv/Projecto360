@@ -1,0 +1,64 @@
+body {
+  .bannerSub {
+    display: block;
+    font-family: Gotham;
+    text-align: center;
+    div {
+      place-content: center;
+      background-image: linear-gradient(to top, #880364, #D61366);
+      height: 365px;
+      position: relative;
+      .subBannerContent {
+        text-align: left;
+        position: relative;
+        margin-left: 0;
+        line-height: 20px;
+        img {
+          position: relative;
+          bottom: 100px;
+          width: 600px;
+          left: 50px;
+        }
+        svg {
+          position: relative;
+          bottom: 350px;
+          left: 550px;
+        }
+        h2 {
+          color: white;
+          font-size: 60px;
+          font-weight: bold;
+          position: relative;
+          bottom: 350px;
+          left: 550px;
+        }
+        p {
+          color: white;
+          font-weight: bold;
+          font-size: 28px;
+          position: relative;
+          bottom: 350px;
+          left: 550px;
+        }
+        .buttonVerMais {
+          border-radius: 45px;
+          border: 3px solid white;
+          background: none;
+          color: white;
+          width: 300px;
+          padding: 15px;
+          font-weight: bold;
+          font-size: 24px;
+          position: relative;
+          bottom: 350px;
+          left: 800px;
+        }
+        #formaUm {
+          position: relative;
+          left: 600px;
+          bottom: 100px;
+        }
+      }
+    }
+  }
+}

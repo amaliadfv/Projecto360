@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+	padding: 0;
+	.iconRoda {
+		position: fixed;
+		height: 100px;
+		top: 50%;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		#iconRodaImg {
+			width: 100px;
+		}
+	}
+	.roda {
+		font-family: Gotham;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		display: none;
+		background-image: linear-gradient(to bottom, #0f2c42 , #1a9ab0);
+		width: 50vw;
+		height: 100vh;
+		#close {
+			float: right;
+			padding: 10px;
+		}
+		.leftPixels {
+			#rodaContent {
+				text-align: center;
+				place-content: center;
+				position: relative;
+				margin-top: 55px;
+				line-height: 20px;
+				width: 100%;
+				#miniJogoTitle {
+					color: white;
+					font-weight: bold;
+					font-size: 30px;
+				}
+				h3 {
+					color: white;
+					font-size: 25px;
+				}
+				.textoFin {
+					display: none;
+				}
+				p {
+					color: white;
+					font-size: 18px;
+				}
+			}
+			.buttonClass {
+				width: 100%;
+				text-align: center;
+				place-content: center;
+				#rotateButton {
+					font-family: Montserrat;
+					background-image: linear-gradient(to right, #cd1d5f , #7c0959);
+					padding: 15px;
+					border: none;
+					border-radius: 25px;
+					color: white;
+					width: 150px;
+					font-weight: bold;
+					letter-spacing: 3px;
+					position: relative;
+					top: 430px;
+				}
+				#receberButton {
+					display: none;
+					font-family: Montserrat;
+					background-color: yellow;
+					padding: 15px;
+					border: none;
+					border-radius: 25px;
+					color: blacks;
+					width: 150px;
+					font-weight: bold;
+					letter-spacing: 3px;
+					position: relative;
+					top: 430px;
+				}
+			}
+			.imageClass {
+				width: 100%;
+				text-align: center;
+				place-content: center;
+				#triangulo{
+					position: relative;
+					bottom: 380px;
+				}
+			}
+		}
+	}
+	   
+}
+@include media(0, 850px) {
+	body {
+		.roda {
+			width: 100vw;
+		}
+	}
+}
+@include media(0, 475px) {
+	body {
+		.roda {
+			.leftPixels {
+				.buttonClass {
+					#rotateButton {
+						position: relative;
+						top: 350px;
+					}
+					#receberButton {
+						position: relative;
+						top: 350px;
+					}
+				}
+				.imageClass {
+					#roleta {
+						width: 250px;
+					}
+					#triangulo {
+						width: 250px;
+						position: relative;
+						bottom: 255px;
+						left: 15px;
+					}
+				}
+			}
+		}
+	}
+}

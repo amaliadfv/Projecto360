@@ -1,0 +1,52 @@
+.footer {
+  background: #0E2240;
+  padding: 0px 0px 64px;
+  margin: 0;
+  .wrapperr {
+    ul {
+      margin-left: 100px;
+      font-size: 0px;
+      li {
+        margin-top: 64px;
+        margin-right: 45px;
+        display: inline-block;
+        vertical-align: top;
+        cursor: pointer;
+        h2 {
+          color: white;
+          margin-bottom: 25px;
+          font-family: Gotham;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        p {
+          color: white;
+          margin-bottom: 20px;
+          cursor: pointer;
+          font-family: Gotham;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 11px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .p {
+          max-width: 204px;
+        }
+        .pagamentos {
+          margin-top: 20px;
+          img {
+            height: 31px;
+            width: auto;
+            margin-right: 11px;
+          }
+        }
+      }
+    }
+  }
+}

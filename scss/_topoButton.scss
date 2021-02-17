@@ -1,0 +1,19 @@
+.backToTop {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    text-decoration: none;
+    p {
+      color: black;
+      font-family: Gotham;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+      position: relative;
+      bottom: 10px;
+    }
+  }
+}

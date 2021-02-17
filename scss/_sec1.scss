@@ -1,0 +1,31 @@
+.sec1 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 200px;
+  h1 {
+    margin-bottom: 67px;
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    color: #880364;
+  }
+  #flexCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card-round {
+      p {
+        text-align: center;
+        font-family: Gotham;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 17px;
+        color: #53585A;
+      }
+    }
+  }
+  
+}

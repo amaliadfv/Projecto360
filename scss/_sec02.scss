@@ -1,0 +1,20 @@
+.sec02 {
+  font-family: Gotham;
+  text-align: center;
+  position: relative;
+  margin: 100px 0;
+  padding: 0 200px;
+  .sec02wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .sec02items {
+      text-align: center;
+      display: inline-block;
+      p {
+        font-weight: 300;
+        font-size: 12px;
+      }
+    }
+  }
+}

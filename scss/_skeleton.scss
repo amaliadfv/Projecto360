@@ -1,0 +1,14 @@
+
+section {
+ width:100%;
+}
+
+.wrapper {
+	max-width:1280px;
+	width:100%;
+    margin:0 auto;
+}
+
+@media screen and (min-resolution: 1.25dpi) {
+    body {zoom: 0.8;}
+}	

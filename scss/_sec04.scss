@@ -1,0 +1,36 @@
+.sec04 {
+  font-family: Gotham;
+  text-align: center;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 200px;
+  h1 {
+    margin-bottom: 67px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+  }
+  .cards {
+    place-content: center;
+    display: grid;
+    grid-template-columns: 410px 410px 410px;
+    grid-column-gap: 30px;
+    .card {
+      background-color: gray;
+      width: 410px;
+      height: 400px;
+      text-align: left;
+      padding: 10px;
+      border-radius: 25px;
+      p {
+        font-size: 28px;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        top: 250px;
+      }
+    }
+  }
+}

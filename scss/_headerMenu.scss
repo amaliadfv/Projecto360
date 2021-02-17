@@ -1,0 +1,33 @@
+header {
+  padding: 10px;
+  font-family: Gotham;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #0E2240 , #008AAD);
+  ul {
+    display: flex;
+    list-style: none;
+    &:first-of-type {
+      margin-left: 90px;
+      flex-grow: 2.5;
+      justify-content: space-evenly;
+    }
+    &:last-of-type {
+      position: relative;
+      flex-grow: 1;
+      justify-content: flex-end;
+      top: 15px;
+    }
+    li {
+      font-size: 17px;
+      margin-left: 40px;
+      color: #C4C4C4;
+      &:first-of-type {
+        font-style: normal;
+        color: white;
+      }
+    }
+  }
+}
