@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'gothambook';
+  src: url('gothambook-webfont.woff2') format('woff2'),
+       url('gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 header {
   padding: 10px;
-  font-family: Gotham;
+  font-family: gothambook;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,37 +1,96 @@
+@font-face {
+	font-family: 'gothambook';
+	src: url('gothambook-webfont.woff2') format('woff2'),
+		 url('gothambook-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
 .sec03 {
-  font-family: Gotham;
+  font-family: gothambook;
   text-align: center;
-  background-color: #008AAD;
+  /* background-color: #0E2240; */
   height: 610px;
   position: relative;
-  margin-top: 200px;
   padding: 50px;
+  z-index: 1;
   h1 {
     margin-bottom: 67px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 34px;
     line-height: 41px;
     text-align: center;
-    color: white;
+    color: #0E2240;
   }
   .cards {
     position: relative;
-    margin-top: 150px;
+    margin-top: 200px;
     place-content: center;
     display: grid;
     grid-template-columns: 384px 484px 384px;
     grid-column-gap: 30px;
     .card {
-      background-image: linear-gradient(to bottom, rgba(255,255,255, 0.4), rgba(255,255,255, 0.1));
+      background-image: linear-gradient(to bottom, #0E2240, rgba(14,34,64, 0.7));
       width: 384px;
       height: 275px;
       border-radius: 25px;
+      &:first-of-type {
+        p {
+          position: relative;
+          bottom: 260px;
+        }
+        .comprar {
+          position: relative;
+          bottom: 220px;
+        }
+      }
       &:nth-of-type(2) {
         width: 484px;
         height: 345px;
         position: relative;
         bottom: 35.5px;
+        p {
+          position: relative;
+          bottom: 330px;
+        }
+        .comprar {
+          position: relative;
+          bottom: 240px;
+          left: 110px;
+        }
+      }
+      img {
+        position: relative;
+        right: 100px;
+        bottom: 70px;
+      }
+      #second {
+        position: relative;
+        bottom: 120px;
+      }
+      p {
+        text-align: right;
+        color: white;
+        font-size: 26px;
+        font-weight: 900;
+        position: relative;
+        bottom: 230px;
+        line-height: 18px;
+        right: 50px;
+      }
+      .comprar {
+        border-radius: 20px;
+        border: 2px solid white;
+        padding: 5px;
+        width: 180px;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        background-color: #cfcfcf;
+        position: relative;
+        bottom: 195px;
+        left: 55px;
       }
     }
   }

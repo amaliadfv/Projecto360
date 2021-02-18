@@ -1,4 +1,4 @@
-/* 
+
 function hero(){
     $('.banner').slick({
         autoplay: true,
@@ -10,7 +10,7 @@ function hero(){
         arrows: false
       });
 }
-*/
+
 
 $(document).ready(function(){
     hero();

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'gothambook';
+  src: url('gothambook-webfont.woff2') format('woff2'),
+       url('gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 .footer {
   background: #0E2240;
   padding: 0px 0px 64px;
@@ -15,7 +23,7 @@
         h2 {
           color: white;
           margin-bottom: 25px;
-          font-family: Gotham;
+          font-family: gothambook;
           font-size: 17px;
           font-style: normal;
           font-weight: 500;
@@ -27,7 +35,7 @@
           color: white;
           margin-bottom: 20px;
           cursor: pointer;
-          font-family: Gotham;
+          font-family: gothambook;
           font-size: 12px;
           font-style: normal;
           font-weight: 300;

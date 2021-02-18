@@ -4,6 +4,8 @@ var rotate = $('#rotateButton');
 var receber = $('#receberButton');
 var hideText = $('.textoInicio');
 var showText = $('.textoFin');
+var hideTitle = $('#miniJogoTitle');
+var showTitle = $('#miniJogoTitleFin');
 
 $("#rotateButton").click(function(){
     let element = $("#roleta");
@@ -23,6 +25,8 @@ $("#rotateButton").click(function(){
         receber.show();
         hideText.hide();
         showText.show();
+        hideTitle.hide();
+        showTitle.show();
     }, 2500) );
 
 });

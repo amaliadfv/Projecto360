@@ -1,26 +1,35 @@
+@font-face {
+	font-family: 'gothambook';
+	src: url('gothambook-webfont.woff2') format('woff2'),
+		 url('gothambook-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
 .sec1 {
   text-align: center;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  
   h1 {
     margin-bottom: 67px;
-    font-family: Gotham;
+    font-family: 'gothambook';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 34px;
     line-height: 41px;
     text-align: center;
     color: #880364;
   }
   #flexCards {
+    padding: 0 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     .card-round {
       p {
         text-align: center;
-        font-family: Gotham;
-        font-style: italic;
+        font-family: gothambook;
         font-weight: bold;
         font-size: 17px;
         color: #53585A;

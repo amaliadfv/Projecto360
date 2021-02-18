@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'gothambook';
+	src: url('gothambook-webfont.woff2') format('woff2'),
+		 url('gothambook-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
 body {
 	margin: 0;
 	padding: 0;
@@ -13,7 +21,7 @@ body {
 		}
 	}
 	.roda {
-		font-family: Gotham;
+		font-family: 'gothambook';
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -33,23 +41,25 @@ body {
 				place-content: center;
 				position: relative;
 				margin-top: 55px;
-				line-height: 20px;
+				line-height: 25px;
 				width: 100%;
 				#miniJogoTitle {
 					color: white;
 					font-weight: bold;
 					font-size: 30px;
 				}
-				h3 {
+				#miniJogoTitleFin {
+					display: none;
 					color: white;
-					font-size: 25px;
+					font-weight: bold;
+					font-size: 28px;
 				}
 				.textoFin {
 					display: none;
 				}
 				p {
 					color: white;
-					font-size: 18px;
+					font-size: 16px;
 				}
 			}
 			.buttonClass {
@@ -97,6 +107,7 @@ body {
 	}
 	   
 }
+
 @include media(0, 850px) {
 	body {
 		.roda {
@@ -104,10 +115,37 @@ body {
 		}
 	}
 }
+@include media(0, 600px) {
+	body {
+		.roda {
+			.leftPixels {
+				#rodaContent {
+					h2 {
+						font-size: 24px;
+					}
+					p {
+						font-size: 14px;
+					}
+					.textoInicio{
+						padding: 20px;
+					}
+				}
+			}
+		}
+	}
+}
 @include media(0, 475px) {
 	body {
 		.roda {
 			.leftPixels {
+				#rodaContent {
+					h2 {
+						font-size: 18px;
+					}
+					p {
+						font-size: 12px;
+					}
+				}
 				.buttonClass {
 					#rotateButton {
 						position: relative;

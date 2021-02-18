@@ -1,13 +1,25 @@
+@font-face {
+  font-family: 'gothambook';
+  src: url('gothambook-webfont.woff2') format('woff2'),
+       url('gothambook-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 body {
   .bannerSub {
     display: block;
-    font-family: Gotham;
+    font-family: gothambook;
     text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    z-index: 5;
     div {
       place-content: center;
-      background-image: linear-gradient(to top, #880364, #D61366);
+      background-image: linear-gradient(to top, #008AAD, #0E2240);
       height: 365px;
-      position: relative;
       .subBannerContent {
         text-align: left;
         position: relative;
@@ -24,21 +36,25 @@ body {
           bottom: 350px;
           left: 550px;
         }
-        h2 {
-          color: white;
-          font-size: 60px;
-          font-weight: bold;
-          position: relative;
-          bottom: 350px;
-          left: 550px;
-        }
-        p {
-          color: white;
-          font-weight: bold;
-          font-size: 28px;
-          position: relative;
-          bottom: 350px;
-          left: 550px;
+        div {
+          width: 50%;
+          background-image:none ;
+          h2 {
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            position: relative;
+            bottom: 350px;
+            left: 550px;
+          }
+          p {
+            color: white;
+            font-weight: bold;
+            font-size: 28px;
+            position: relative;
+            bottom: 350px;
+            left: 550px;
+          }
         }
         .buttonVerMais {
           border-radius: 45px;
@@ -50,14 +66,10 @@ body {
           font-weight: bold;
           font-size: 24px;
           position: relative;
-          bottom: 350px;
+          bottom: 580px;
           left: 800px;
         }
-        #formaUm {
-          position: relative;
-          left: 600px;
-          bottom: 100px;
-        }
+        
       }
     }
   }

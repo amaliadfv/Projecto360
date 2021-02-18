@@ -1,9 +1,18 @@
+@font-face {
+	font-family: 'gothambook';
+	src: url('gothambook-webfont.woff2') format('woff2'),
+		 url('gothambook-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
 .sec02 {
-  font-family: Gotham;
+  font-family: gothambook;
   text-align: center;
+  padding: 25px 200px;
+  background-image: linear-gradient(to bottom, #0E2240 , #008AAD);
   position: relative;
-  margin: 100px 0;
-  padding: 0 200px;
+  bottom: 100px;
   .sec02wrapper {
     display: flex;
     align-items: center;
@@ -12,6 +21,7 @@
       text-align: center;
       display: inline-block;
       p {
+        color: white;
         font-weight: 300;
         font-size: 12px;
       }
